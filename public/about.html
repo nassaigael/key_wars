@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/src/assets/css/style.css">
+    <link rel="stylesheet" href="/src/assets/css/main.css">
+    <link rel="stylesheet" href="/src/assets/css/effect.css">
+    <link rel="stylesheet" href="/src/assets/css/config.css">
+    <link rel="icon" href="/src/assets/favicon_io/android-chrome-192x192.png" sizes="192x192" type="image/png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>About</title>
+</head>
+
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-5 max-w-4xl">
+        <div class="flex space-x-2 my-5 w-full  justify-end">
+            <div class="w-[50%]">
+                <div class="text-4xl font-bold font-['Orbitron']">
+                    Key<span class="logo">Wars</span>
+                </div>
+            </div>
+            <div class="w-[50%] flex justify-end">
+                <div class="nav-icon">
+                    <a href="/public/home.html"> <button
+                            class="effect w-10 h-10 rounded-full flex items-center justify-center text-purple-400 hover:text-green-400 transition-all">
+                            <i class="fas fa-graduation-cap"></i>
+                        </button></a>
+                    <span class="tooltip">Home</span>
+                </div>
+
+
+                <div class="nav-icon">
+                    <a href="/public/play.html"
+                        class="effect w-10 h-10 rounded-full flex items-center justify-center text-purple-400 hover:text-green-400 transition-all">
+                        <i class="fas fas fa-gamepad"></i>
+                    </a>
+                    <span class="tooltip">Play</span>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-3xl font-['Orbitron']  mb-6">
+            <i class="fas fa-info-circle mr-3"></i>About
+        </h1>
+
+        <div class="grid md:grid-cols-2 gap-8 ">
+            <div class="effect-inset p-6 rounded-lg">
+                <h2 class="text-2xl font-['Orbitron'] color-purple mb-4">
+                    <i class="fas fa-rocket mr-2"></i>Our Mission
+                </h2>
+                <p class="mb-4">KeyWars is not your typical typing tutor—it's a battle-themed typing game where your
+                    keyboard becomes your weapon. Words, phrases, or even enemies approach your screen, and your only
+                    way to defeat them is by typing them correctly and quickly.</p>
+                <p>Our goal is to help users achieve professional typing speeds while having fun in a futuristic,
+                    color-inspired environment.</p>
+            </div>
+
+            <div class="effect-inset p-6 rounded-lg">
+                <h2 class="text-2xl font-['Orbitron'] color-blue mb-4">
+                    <i class="fas fa-users mr-2"></i>Meet the Team
+                </h2>
+                <div class="space-y-4">
+                    <a href="https://www.linkedin.com/in/nassaigael" target="_blank" rel="noopener noreferrer">
+                        <div class="flex items-center effect-inset p-2">
+                            <div class="effect w-12 h-12 rounded-full flex items-center justify-center mr-4 bg-cover bg-center"
+                                style="background-image: url('/src/assets/image/nassaigael.jpg');"></div>
+                            <div>
+                                <h3 class="font-medium">Gael</h3>
+                                <p class="text-sm text-gray-400">Architect and Algotihm</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/ravelojaona-christian-74bb162b3" target="_blank"
+                        rel="noopener noreferrer">
+                        <div class="flex items-center effect-inset p-2">
+                            <div class="effect w-12 h-12 rounded-full flex items-center justify-center mr-4 bg-cover bg-center"
+                                style="background-image: url('/src/assets/image/christian.jpg');"></div>
+                            <div>
+                                <h3 class="font-medium">Christian</h3>
+                                <p class="text-sm text-gray-400">UI/UX Designer and FrontEnd Dev</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8 effect-inset p-6 rounded-lg">
+            <h2 class="text-2xl font-['Orbitron'] color-purple mb-4">
+                <i class="fas fa-chart-line mr-2"></i>Our Stats
+            </h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="effect p-4 rounded-lg text-center">
+                    <div class="text-4xl text-green-400 mb-2 font-bold">10K+</div>
+                    <p class="text-sm text-gray-400">Active Users</p>
+                </div>
+                <div class="effect p-4 rounded-lg text-center">
+                    <div class="text-4xl text-green-300 mb-2 font-bold">95%</div>
+                    <p class="text-sm text-gray-400">Accuracy Improvement</p>
+                </div>
+                <div class="effect p-4 rounded-lg text-center">
+                    <div class="text-4xl text-green-200 mb-2 font-bold">2.5x</div>
+                    <p class="text-sm text-gray-400">Speed Increase</p>
+                </div>
+            </div>
+        </div>
+        </main>
+    </div>
+    <script src="/src/components/loading.js"></script>
+</body>
+
+</html>
