@@ -12,6 +12,7 @@
 
 ## 🚀 How to Play
 
+
 1. Open the game in your web browser.  
 2. Select a difficulty level: Easy, Medium, or Hard.  
 3. Type the text displayed on the screen.  
